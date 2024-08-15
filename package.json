@@ -1,9 +1,10 @@
 {
   "name": "twitter-naira-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A bot to scrape currency rates and tweet updates.",
+  "main": "scrape.js",
   "scripts": {
+    "start": "node scrape.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
