@@ -1,6 +1,8 @@
 import { TwitterApi } from "twitter-api-v2";
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config({
+  path: "/Users/fullyangozi/Web Development projects/twitter-naira-bot/.env",
+});
 
 const twitterClient = new TwitterApi({
   appKey: process.env.TWITTER_API_KEY,
@@ -10,7 +12,18 @@ const twitterClient = new TwitterApi({
 });
 
 async function tweetRates(rates) {
-  const tweet = `Current exchange rates:\n1 USD: ₦${rates.usdRates}\n1 EUR: ₦${rates.euroRates}\n1 CAD: ₦${rates.cadRates}\n1 GBP: ₦${rates.poundRates}`;
+  const tweet = `📊 Today's Naira Exchange Rates 🇳🇬
+
+💵 $1 USD = ₦${rates.usdRates}
+💶 €1 EUR = ₦${rates.euroRates}
+🍁 $1 CAD = ₦${rates.cadRates}
+💷 £1 GBP = ₦${rates.poundRates}
+
+💡 What's your take on these rates?
+
+#NairaExchange #ForexUpdate #NigerianEconomy #USD #EUR #CAD #GBP
+
+Follow for daily updates! 🔔`;
   try {
     await twitterClient.v2.tweet(tweet);
     console.log("Tweet sent:", tweet);

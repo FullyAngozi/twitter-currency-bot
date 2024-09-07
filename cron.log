@@ -1,0 +1,156 @@
+/Users/fullyangozi/Web Development projects/twitter-naira-bot/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-maker.mixin.js:164
+            throw new Error('Invalid consumer tokens');
+                  ^
+
+Error: Invalid consumer tokens
+    at ClientRequestMaker.buildOAuth (/Users/fullyangozi/Web Development projects/twitter-naira-bot/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-maker.mixin.js:164:19)
+    at ClientRequestMaker.initializeToken (/Users/fullyangozi/Web Development projects/twitter-naira-bot/node_modules/twitter-api-v2/dist/cjs/client-mixins/request-maker.mixin.js:121:32)
+    at new TwitterApiBase (/Users/fullyangozi/Web Development projects/twitter-naira-bot/node_modules/twitter-api-v2/dist/cjs/client.base.js:18:32)
+    at new TwitterApi (/Users/fullyangozi/Web Development projects/twitter-naira-bot/node_modules/twitter-api-v2/dist/cjs/client/index.js:14:1)
+    at file:///Users/fullyangozi/Web%20Development%20projects/twitter-naira-bot/tweet.js:5:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:262:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:482:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.6.0
+/bin/bash: /Users/fullyangozi/Web: No such file or directory
+{
+  usdRates: '1630',
+  poundRates: '2100',
+  euroRates: '1790',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1630
+1 EUR: ₦1790
+1 CAD: ₦1210
+1 GBP: ₦2100
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1630',
+  poundRates: '2110',
+  euroRates: '1790',
+  cadRates: '1210'
+}
+Error sending tweet: Request failed with code 403
+{
+  usdRates: '1630',
+  poundRates: '2110',
+  euroRates: '1790',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1630
+1 EUR: ₦1790
+1 CAD: ₦1210
+1 GBP: ₦2110
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1630',
+  poundRates: '2110',
+  euroRates: '1760',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1630
+1 EUR: ₦1760
+1 CAD: ₦1210
+1 GBP: ₦2110
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1630',
+  poundRates: '2110',
+  euroRates: '1760',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1630
+1 EUR: ₦1760
+1 CAD: ₦1210
+1 GBP: ₦2110
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1630',
+  poundRates: '2120',
+  euroRates: '1780',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1630
+1 EUR: ₦1780
+1 CAD: ₦1210
+1 GBP: ₦2120
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1630',
+  poundRates: '2120',
+  euroRates: '1780',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1630
+1 EUR: ₦1780
+1 CAD: ₦1210
+1 GBP: ₦2120
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1650',
+  poundRates: '2160',
+  euroRates: '1770',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1650
+1 EUR: ₦1770
+1 CAD: ₦1210
+1 GBP: ₦2160
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1650',
+  poundRates: '2160',
+  euroRates: '1770',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1650
+1 EUR: ₦1770
+1 CAD: ₦1210
+1 GBP: ₦2160
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1660',
+  poundRates: '2170',
+  euroRates: '1790',
+  cadRates: '1210'
+}
+Tweet sent: Current exchange rates:
+1 USD: ₦1660
+1 EUR: ₦1790
+1 CAD: ₦1210
+1 GBP: ₦2170
+ #nigeria #naira #usd #exchangerate
+{
+  usdRates: '1660',
+  poundRates: '2170',
+  euroRates: '1790',
+  cadRates: '1210'
+}
+Error sending tweet: Request failed with code 403
+{
+  usdRates: '1650',
+  poundRates: '2160',
+  euroRates: '1785',
+  cadRates: '1210'
+}
+Tweet sent: 📊 Today's Naira Exchange Rates 🇳🇬
+
+💵 $1 USD = ₦1650
+💶 €1 EUR = ₦1785
+🍁 $1 CAD = ₦1210
+💷 £1 GBP = ₦2160
+
+💡 What's your take on these rates?
+
+#NairaExchange #ForexUpdate #NigerianEconomy #USD #EUR #CAD #GBP
+
+Follow for daily updates! 🔔
